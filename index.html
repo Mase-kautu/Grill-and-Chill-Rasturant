@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grill and Chill</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+    }
+    header {
+      background-color: #ff4e00;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #ff7043;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+    .menu-item {
+      margin: 10px 0;
+    }
+    .contact-form input, .contact-form textarea {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+    }
+    .contact-form button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #ff4e00;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Grill and Chill</h1>
+    <p>Your go-to place for flame-grilled goodness!</p>
+  </header>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#location">Location</a>
+  </nav>
+
+  <section id="menu">
+    <h2>Menu</h2>
+    <div class="menu-item"><strong>Classic Burger</strong> - $9.99</div>
+    <div class="menu-item"><strong>Grilled Chicken Sandwich</strong> - $8.49</div>
+    <div class="menu-item"><strong>Veggie Wrap</strong> - $7.99</div>
+    <div class="menu-item"><strong>Loaded Fries</strong> - $5.99</div>
+    <div class="menu-item"><strong>Smoothie</strong> - $4.50</div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At Grill and Chill, we serve flame-grilled burgers, wraps, and more with fresh ingredients
+      and a side of friendly vibes. Whether you're here for a quick lunch or a chill dinner with friends, we’ve got you covered.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section id="location">
+    <h2>Location</h2>
+    <p>123 Grill Street, Chilltown, USA</p>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0190082820754!2d-122.42123138468163!3d37.77492977975937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c7e8c74ab%3A0x4b7f75dbb0ff11e1!2sGrill%20and%20Chill!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" 
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </section>
+
+</body>
+</html><section id="menu">
+  <h2>Menu</h2>
+
+  <div class="menu-item">
+    <img src="images/burger.jpg" alt="Classic Burger" width="200" />
+    <p><strong>Classic Burger</strong> - $9.99</p>
+  </div>
+
+  <div class="menu-item">
+    <img src="images/chicken-sandwich.jpg" alt="Grilled Chicken Sandwich" width="200" />
+    <p><strong>Grilled Chicken Sandwich</strong> - $8.49</p>
+  </div>
+
+  <div class="menu-item">
+    <img src="images/veggie-wrap.jpg" alt="Veggie Wrap" width="200" />
+    <p><strong>Veggie Wrap</strong> - $7.99</p>
+  </div>
+
+  <div class="menu-item">
+    <img src="images/fries.jpg" alt="Loaded Fries" width="200" />
+    <p><strong>Loaded Fries</strong> - $5.99</p>
+  </div>
+
+  <div class="menu-item">
+    <img src="images/smoothie.jpg" alt="Smoothie" width="200" />
+    <p><strong>Smoothie</strong> - $4.50</p>
+  </div>
+</section>
