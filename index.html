@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grill and Chill</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #8b0000;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1555992336-03a23c5f7c4b');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 5px #000;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .menu, .contact {
+      background-color: #fff;
+      margin: 1rem auto;
+      max-width: 800px;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Grill and Chill</h1>
+    <p>Authentic Italian Cuisine in the Heart of the City</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero" id="home">
+    Welcome to Grill and Chill
+  </div>
+
+  <section class="section menu" id="menu">
+    <h2>Our Menu</h2>
+    <p><strong>Margherita Pizza</strong> – $12<br>Classic tomato, mozzarella & basil</p>
+    <p><strong>Spaghetti Carbonara</strong> – $14<br>With pancetta, egg, & parmesan</p>
+    <p><strong>Tiramisu</strong> – $7<br>Layered dessert with coffee & mascarpone</p>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Grill and Chill brings traditional Italian recipes to life using the freshest ingredients and a cozy ambiance. Whether you're dining with family or celebrating with friends, we promise a memorable experience.</p>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Contact & Location</h2>
+    <p>📍 123 Main Street, Foodville</p>
+    <p>📞 63048093/59623456</p>
+    <p>🕒 Mon-Sun: 11am – 10pm</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Grill and Chill. All rights reserved.
+  </footer>
+
+</body>
+</html>
